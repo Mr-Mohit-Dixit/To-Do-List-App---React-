@@ -1,16 +1,87 @@
-# React + Vite
+# React Todo List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive Todo List application built with React and React Hooks (`useState`). The app helps users manage daily tasks with features such as task creation, completion tracking, filtering, and task management through a clean and user-friendly interface.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Add new tasks
+* Add tasks using the Enter key
+* Mark tasks as completed or active
+* Delete individual tasks
+* Filter tasks by:
 
-## React Compiler
+  * All
+  * Active
+  * Completed
+* Display active and completed task counts
+* Clear all completed tasks
+* Highlight the currently selected filter
+* Responsive UI for different screen sizes
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
 
-## Expanding the ESLint configuration
+* React
+* JavaScript (ES6+)
+* HTML5
+* CSS3
+* React Hooks (`useState`)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Structure
+
+```text
+src/
+├── App.jsx
+├── App.css
+├── main.jsx
+```
+
+## Installation
+
+1. Clone the repository
+
+```bash
+git clone <repository-url>
+```
+
+2. Navigate to the project directory
+
+```bash
+cd react-todo-app
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Start the development server
+
+```bash
+npm run dev
+```
+
+## Learning Outcomes
+
+This project helped in understanding:
+
+* React Functional Components
+* State Management using `useState`
+* Event Handling
+* Conditional Rendering
+* Array Methods (`map`, `filter`)
+* Controlled Components
+* Dynamic UI Updates
+* Component Re-rendering in React
+
+## Future Improvements
+
+* Edit existing tasks
+* Local Storage persistence
+* Dark mode support
+* Task categories and priorities
+* Due dates and reminders
+
+## Author
+
+Mohit Dixit
